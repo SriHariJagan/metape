@@ -4,6 +4,7 @@ import Features from '../components/home/Features'
 import Stats from '../components/home/Stats'
 import SolutionsOverview from '../components/home/SolutionsOverview'
 import Testimonials from '../components/home/Testimonials'
+import { EcosystemSection } from '@/components/sections/home/EcosystemSection'
 import CTA from '../components/home/CTA'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Stats />
       <SolutionsOverview />
       <Testimonials />
+      <EcosystemSection />
       <CTA />
     </>
   )

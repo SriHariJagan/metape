@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Heart, Lightbulb, Users, Award, Globe, Shield } from 'lucide-react'
+import { FoundersSection } from '@/components/sections/about/FoundersSection'
 
 const values = [
   {
@@ -151,6 +152,9 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      {/* Founders */}
+      <FoundersSection />
 
       {/* CTA */}
       <section className="section-padding bg-navy">
