@@ -145,48 +145,49 @@ interface FooterSection {
 
 const FOOTER_SECTIONS: FooterSection[] = [
   {
-    heading: "Products",
+    heading: "OUR Products",
     links: [
-      { label: "MetaHealth", href: "https://metahealth.metadev.io", external: true, logo: metaHealth, logoDark: metaHealth },
-      { label: "MetaEdu", href: "https://metaedu.metadev.io", external: true, logo: metaEdu, logoDark: metaEduDark },
-      { label: "MetaGreen", href: "https://metagreen.metadev.io", external: true, logo: metaGreen, logoDark: metaGreenDark },
-      { label: "MetaFlow", href: "https://metaflow.metadev.io", external: true, logo: metaFlow, logoDark: metaFlow },
-      { label: "MetaHire", href: "https://metahire.metadev.io", external: true, logo: metaHire, logoDark: metaHireDark },
-      { label: "MetaCheck", href: "https://metacheck.metadev.io", external: true, logo: metaCheck, logoDark: metaCheckDark },
-      { label: "MetaAds", href: "https://metaads.metadev.io", external: true, logo: metaAds, logoDark: metaAdsDark },
-      { label: "MetaNav", href: "https://metanav.metadev.io", external: true, logo: metaNav, logoDark: metaNav },
-      { label: "MetaLedger", href: "https://metaledger.metadev.io", external: true, logo: metaLedger, logoDark: metaLedgerDark },
-      { label: "MetaCard", href: "https://metacard.metadev.io", external: true, logo: metaCard, logoDark: metaCardDark },
-      { label: "MetaIM", href: "https://metaim.metadev.io", external: true, logo: metaIm, logoDark: metaImDark },
+      { label: "MetaHealth", href: "https://metahealth.live", external: true, logo: metaHealth, logoDark: metaHealth },
+      { label: "MetaEdu", href: "https://metaedu.in", external: true, logo: metaEdu, logoDark: metaEduDark },
+      { label: "MetaGreen", href: "https://metagreen.in", external: true, logo: metaGreen, logoDark: metaGreenDark },
+      { label: "MetaFlow", href: "https://metaflow.in", external: true, logo: metaFlow, logoDark: metaFlow },
+      { label: "MetaHire", href: "https://metahire.in", external: true, logo: metaHire, logoDark: metaHireDark },
+      { label: "MetaCheck", href: "https://metacheck.in", external: true, logo: metaCheck, logoDark: metaCheckDark },
+      { label: "MetaAds", href: "https://metaads.in", external: true, logo: metaAds, logoDark: metaAdsDark },
+      { label: "MetaNav", href: "https://metanav.in", external: true, logo: metaNav, logoDark: metaNav },
+      { label: "MetaLedger", href: "https://metaledger.in", external: true, logo: metaLedger, logoDark: metaLedgerDark },
+      { label: "MetaCard", href: "https://metacard.in", external: true, logo: metaCard, logoDark: metaCardDark },
+      { label: "MetaIM", href: "https://metaledger.in", external: true, logo: metaIm, logoDark: metaImDark },
       { label: "MetaPE", href: "/", external: false, logo: metaCard, logoDark: metaCardDark },
     ],
   },
-  {
-    heading: "Solutions",
-    links: [
-      { label: "Payment Gateway", href: "/solutions" },
-      { label: "Subscriptions & Billing", href: "/solutions" },
-      { label: "Marketplace Payments", href: "/solutions" },
-      { label: "Payment Links", href: "/solutions" },
-      { label: "Invoicing", href: "/solutions" },
-      { label: "Payouts", href: "/solutions" },
-      { label: "Fraud Prevention", href: "/solutions" },
-      { label: "Developer APIs", href: "/solutions" },
-    ],
-  },
-  {
-    heading: "Contact",
-    links: [
-      { label: "About Us", href: "/about" },
-      { label: "Career", href: "/career" },
-      { label: "Contact Us", href: "/contact" },
-    ],
-  },
+  // {
+  //   heading: "Solutions",
+  //   links: [
+  //     { label: "Payment Gateway", href: "/solutions" },
+  //     { label: "Subscriptions & Billing", href: "/solutions" },
+  //     { label: "Marketplace Payments", href: "/solutions" },
+  //     { label: "Payment Links", href: "/solutions" },
+  //     { label: "Invoicing", href: "/solutions" },
+  //     { label: "Payouts", href: "/solutions" },
+  //     { label: "Fraud Prevention", href: "/solutions" },
+  //     { label: "Developer APIs", href: "/solutions" },
+  //   ],
+  // },
+  // {
+  //   heading: "Contact",
+  //   links: [
+  //     { label: "About Us", href: "/about" },
+  //     { label: "Career", href: "/career" },
+  //     { label: "Contact Us", href: "/contact" },
+  //   ],
+  // },
 ];
 
 const LEGAL_LINKS = [
   { label: "Privacy Policy", href: "/legal/privacy-policy" },
   { label: "Terms of Service", href: "/legal/terms-of-service" },
+  { label: "Cancellation & Refunds", href: "/legal/cancellation" },
   { label: "Security", href: "/legal/security" },
   { label: "Compliance", href: "/legal/compliance" },
   { label: "Sitemap", href: "/sitemap" },
