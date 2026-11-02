@@ -1,3 +1,4 @@
+import { SEO } from '@/seo/SEO';
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, MapPin, Clock, Heart, Rocket, Coffee, GraduationCap, Briefcase, Globe, Sparkles, ChevronRight } from 'lucide-react'
@@ -36,6 +37,7 @@ export default function Career() {
 
   return (
     <>
+      <SEO />
       {/* Hero */}
       <section className="relative pt-36 pb-24 bg-navy">
         <div className="absolute inset-0">

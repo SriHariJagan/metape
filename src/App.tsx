@@ -1,3 +1,5 @@
+import { usePageTracking } from './seo/usePageTracking';
+import { SEO } from './seo/SEO';
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import Navbar from './components/Navbar'
@@ -23,9 +25,11 @@ function ScrollToTop() {
 }
 
 export default function App() {
+  usePageTracking();
   return (
     <div className="flex min-h-screen flex-col">
       <ScrollToTop />
+      <SEO />
       <Navbar />
       <main className="flex-1">
         <Routes>

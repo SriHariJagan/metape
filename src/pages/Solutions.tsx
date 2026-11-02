@@ -1,3 +1,4 @@
+import { SEO } from '@/seo/SEO';
 import { Link } from 'react-router-dom'
 import { ArrowRight, CreditCard, Repeat, Building2, Wallet, Shield, Globe, Zap, BarChart3, Code2, Lock, Settings, Check, ArrowUpRight } from 'lucide-react'
 
@@ -225,6 +226,7 @@ function SolutionVisual({ type }: { type: string }) {
 export default function Solutions() {
   return (
     <>
+      <SEO />
       {/* Hero */}
       <section className="relative pt-32 pb-24 bg-navy overflow-hidden">
         <div className="absolute inset-0">

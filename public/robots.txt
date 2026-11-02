@@ -1,0 +1,8 @@
+# robots.txt for https://metape.in
+User-agent: *
+Allow: /
+Disallow: /dashboard/
+Disallow: /login
+Disallow: /forgot-password
+Disallow: /api/
+Sitemap: https://metape.in/sitemap.xml

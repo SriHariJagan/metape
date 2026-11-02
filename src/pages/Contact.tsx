@@ -1,3 +1,4 @@
+import { SEO } from '@/seo/SEO';
 import { useState, useCallback, useRef, useEffect } from "react";
 import { Reveal, SectionHeading } from "@/components/common";
 import { Button } from "@/components/ui/Button";
@@ -64,8 +65,8 @@ const channels = [
     title: "Partnerships",
     desc: "Integrations & collaborations",
     color: "#6828A8",
-    value: "partnership@metadev.in",
-    href: "mailto:partnership@metadev.in",
+    value: "partnership@metape.in",
+    href: "mailto:partnership@metape.in",
   },
   {
     icon: UserPlus,
@@ -881,6 +882,7 @@ function FAQSection() {
 export default function Contact() {
   return (
     <>
+      <SEO />
       <ContactHero />
       <ChannelsSection />
       <ContactFormSection />
